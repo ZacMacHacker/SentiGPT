@@ -1,7 +1,7 @@
 import openai
 import speech_recognition as sr
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY HERE"
 
 def generate_response(prompt, conversation_history):
     prompt_with_history = f"{conversation_history}User: {prompt}\nAI:"
